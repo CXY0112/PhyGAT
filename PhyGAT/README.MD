@@ -12,6 +12,7 @@ Compared to vanilla PINNs and Robust Weight Initialization PINNs, our approach a
 Extensive evaluations across three diverse classes of 1D PDEs, including nonlinear and time-dependent systems, our method achieves an order-of-magnitude improvement in predictive accuracy.
 
 # Repository Structure
+```
 PhyGAT
 ├── data/                     # Ground truth data
 │   ├── Allen_Cahn.npz           
@@ -31,3 +32,4 @@ PhyGAT
 ├── PhyGAT_ALLEN-Cahn.ipynb     # Allen-Cahn equation experiment
 ├── PhyGAT_Convection.ipynb     # convection equation experiment
 └── PhyGAT_diffusion.ipynb      # diffusion equation experiment
+```
